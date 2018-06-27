@@ -1,4 +1,4 @@
-package com.ops.base.RestBluePrint.JUnit;
+package com.ops.base.RestBluePrint.Testing;
 
 import org.mockito.Mockito;
 import static org.mockito.Mockito.mock;
