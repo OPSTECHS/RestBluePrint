@@ -19,7 +19,7 @@ public class PersistenceContext {
 		
 		HikariConfig dataSourceConfig = new HikariConfig();
 		
-		dataSourceConfig.setDriverClassName(env.getRequiredProperty("mysql.driver"));
+		dataSourceConfig.setDriverClassName(env.getRequiredProperty("spring.datasource.driver-class-name"));
 		dataSourceConfig.setJdbcUrl(env.getRequiredProperty("spring.datasource.url"));
 		dataSourceConfig.setUsername(env.getRequiredProperty("spring.datasource.username"));
 		dataSourceConfig.setPassword(env.getRequiredProperty("spring.datasource.password"));
