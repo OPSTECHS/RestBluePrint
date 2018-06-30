@@ -21,7 +21,8 @@ public class UserRoute {
 		
 		us.save(new User("bob", "wills"));
 		
-		return "0 users found";
+		//return "0 users found";
+		return "Test";
 	}
 	
 	@GetMapping("/addUsers")
