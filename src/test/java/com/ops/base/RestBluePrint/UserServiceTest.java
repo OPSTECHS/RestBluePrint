@@ -37,19 +37,16 @@ public class UserServiceTest {
 	@Test
 	public void test() {
 		
-		//userService = null;
 		Assert.assertNotNull(userService);
 	}
 	
-	/*@Test
+	@Test
 	public void TestShouldSaveUser() {
 		
 		String body = this.restTemplate.getForObject("/api/user", String.class);
 		assertThat(body).isEqualTo("Test");
-		UserService us = Mockito.mock(UserService.class);
-		User u = Mockito.mock(User.class);
-		us.save(u);
-	}*/
+
+	}
 
 }
 
